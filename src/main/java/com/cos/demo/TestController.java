@@ -40,6 +40,11 @@ public class TestController {
     	return "/admin/adminProductRegister";
     }
     
+    @GetMapping("/test/test/adminproductregister2")
+    public String adminRegister2() {
+    	return "/admin/adminProductRegister2";
+    }
+    
     @GetMapping("/test/test/findId")
     public String findid() {
     	return "/auth/findId";
@@ -60,7 +65,7 @@ public class TestController {
     	return "/auth/loginForm";
     }
     
-    @GetMapping("/test/mainpage")
+    @GetMapping("/")
     public String mainpage() {
     	return "/post/index";
     }
@@ -73,5 +78,20 @@ public class TestController {
     @GetMapping("/test/header")
     public String header() {
     	return "/layout/header";
+    }
+    
+    @GetMapping("/test/bucket")
+    public String bucket() {
+    	return "/user/bucket";
+    }
+    
+    @GetMapping("/test/comments")
+    public String comments() {
+    	return "/user/commentsManagement";
+    }
+    
+    @GetMapping("/test/mypage")
+    public String usermypage() {
+    	return "/user/myPage";
     }
 }

@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,270 +12,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/productpage.css">
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
     <title>UNISHOP Skirts</title>
     <style>
   
-        .d-flex{
-            width: 400px;
-        }
-        .header-top{
-          width: 1200px;
-          width: 100%;
-        }
-        .header{
-        position: relative;
-        padding: 0px;
-        /* border-style: solid;
-        border-width: 1px;
-        border-color: rgb(194, 194, 194); */
-        margin: 0px auto;
-        }
-       
-
-
-        .main-top{
-          position: relative;
-          padding: 16px 0px;
-          width: 1200px;
-          margin: 0px auto;
-        }
-        .main-content{
-          display: flex;
-          
-          padding: 16px 0px;
-          width: 1200px;
-          margin: 0px auto;
-        }
-        .main{
-          margin-top: 100px;
-          height: 600px;
-        }
-        
-        .content-array{
-          width: 1200px;
-          
-        }
-
-
-
-
-
-        .form-signin {
-          width: 100%;
-          max-width: 330px;
-          padding: 15px;
-          margin: auto;
-        }
-
-        .dropdown-menu{
-          height: auto;
-          position: relative;
-          width: 460px;
-          top: 78px;
-          left: 50%;
-        
-          font-size: 12px;
-          line-height: 1.3em;
-          background-color: white;
-    
-        }
-        .dropdown-in{
-          display: inline-block;
-          margin: 12px;
-
-        }
-        .dropdown-item-text{
-          font-weight: bold !important;
-          font-size: 13px;
-          margin-bottom: 4px;
-        }
-        .dropdown-item{
-          font-family: '留��� 怨���', 'Malgun Gothic', ����;
-          
-        }
-        .dropdown-in-close{
-          top: 20px;
-          position: absolute;
-          margin: 12px;
-        }
-        .find{
-          display: flex;
-          justify-content: space-between;
-          font-size: 12px;
-          margin: 8px;
-          padding: 3px;
-          
-        }
-        .icon{
-          display: flex;
-          width: 70px;
-          justify-content: space-between;
-
-        }
-        hr{
-          width: 1200px;
-          margin: 0 auto;
-        }
-        .logo{
-          height: 60px;
-        }
-        .new-main{
-          display: flex;
-          margin: 20px auto;
-          
-          padding: 0px 0px;
-          width: 1200px;
-
-        } 
-        .new-main-products{
-          display: flex;
-          margin: 20px auto;
-          flex-flow: wrap;
-          padding: 0px 0px;
-          width: 1200px;
-
-        } 
-
-
-        /* ���� 臾쇳�� �대�몄� ������ */
-        .content-img {
-          margin: 5px;
-          
-          display: flex;
-          justify-content: space-between;
-          
-          height: 250px;
-          width: 200px;
-          
-        }
-        .content-img > h5{
-          display: flex;
-          
-        }
-
-        /* ���� �ㅻ�� ���� �대�몄� ������ */
-        .content-img-top {
-          /* margin: 15px; */
-          
-          display: flex;
-          justify-content: space-between;
-          
-         
-          height: 570px;
-          width: 400px;
-          
-        }
-        /* .content-img-top > img {
-          border-color: rgb(194, 194, 194);
-          border-style: solid;
-          border-width: 1px;
-          box-sizing: border-box;
-        } */
-        p,h1,h2,h3{
-          display: block;
-          
-          margin: 0 auto;
-          font-family: 'UniqloProRegular','UniqloProLight','UniqloProBold','NanumSquare', sans-serif;
-          padding: 20px 0px;
-          
-        }
-        
-
-        /* ���� �ㅻ�� */
-        .main-top-information{
-          margin: 0 auto;
-          width: 1200px;
-          display: flex;
-          align-items: center;
-        }
-
-        .main-top-information{
-          margin: 0 auto;
-          width: 1200px;
-          display: flex;
-          justify-content: space-between;
-        }
-
-        /* ���� �ㅻ�� �쇱そ ���� */
-        .top-width{
-          
-          width: 744px;
-          display: flex;
-          
-          justify-content: center;
-          /* flex-direction: column; */
-          border-color: rgb(194, 194, 194);
-          border-style: solid;
-          border-width: 1px;
-          box-sizing: border-box;
-          padding: 20px;
-          
-          
-        }
-        /* ���� �ㅻ�� �쇱そ ���⑥���� ���� h2 ��紐� */
-        .top-width > h2{
-          display: flex;
-          /* flex-direction: row;
-          align-items: flex-start; */
-          flex: 1;
-          justify-content: center;
-        }
-        /* ���� �ㅻ�� �쇱そ ���⑥���� ���� 湲��� */
-        .top-width > h4{
-          display: flex;
-          align-items: center;
-          
-          flex: 4;
-          width: 700px;
-          
-        }
-        
-
-
-
-        /* product */
-        .main-content-product{
-          width: 1200px;
-          margin: 0 auto;
-        }
-        .products > p, h5{
-          display: flex;
-          
-          align-items: center;
-          justify-content: center;
-          margin: 0px;
-          padding: 0px;
-          
-        }
-        /* ���� �ㅻ� 湲���, �ъ�댁�, */
-        /* .products-info{
-          display: flex;
-          flex-direction: column;
-          flex: 5;
-        } */
-        .products {
-          display: flex;
-          flex-direction: column;
-          width: 300px;
-          height: 450px;
-          flex-wrap: wrap;
-          margin-bottom: 20px;
-          
-        }
-        /* �ш린�� flex�� 以��� ���� 媛��� 怨�移�吏� ��寃� �⑸���� */
-        .products > .content-img{
-          display: flex;
-          flex: 2;
-         
-        }
-        .content-wrap-img{
-          display: flex;
-          justify-content: center;
-          width: 300px;
-          height: 360px;
-          /* flex: 2; */
-        }
-        
   </style>
 </head>
 <body>
@@ -302,22 +43,22 @@
                             </a>
                           <ul class="dropdown-menu">
                             <div class="dropdown-in">
-                              <li><span class="dropdown-item-text">����</span></li>
-                              <li><a class="dropdown-item" href="#">��痢�</a></li>
-                              <li><a class="dropdown-item" href="#">諛���</a></li>
-                              <li><a class="dropdown-item" href="#">���쇱��</a></li>
+                              <li><span class="dropdown-item-text">占쏙옙占쏙옙</span></li>
+                              <li><a class="dropdown-item" href="#">占쏙옙筌ο옙</a></li>
+                              <li><a class="dropdown-item" href="#">獄�占쏙옙占�</a></li>
+                              <li><a class="dropdown-item" href="#">占쏙옙占쎌�깍옙占�</a></li>
                             </div>
                             <div class="dropdown-in">
-                              <li><span class="dropdown-item-text">����</span></li>
-                              <li><a class="dropdown-item" href="#">泥�諛�吏�</a></li>
-                              <li><a class="dropdown-item" href="#">移�留�</a></li>
-                              <li><a class="dropdown-item" href="#">���쇰���ъ�</a></li>
+                              <li><span class="dropdown-item-text">占쏙옙占쏙옙</span></li>
+                              <li><a class="dropdown-item" href="#">筌ｏ옙獄�占쏙�占�</a></li>
+                              <li><a class="dropdown-item" href="#">燁삼옙筌�占�</a></li>
+                              <li><a class="dropdown-item" href="#">占쏙옙占쎌�곤옙占쏙옙�占�</a></li>
                             </div>
                             <div class="dropdown-in">
-                              <li><span class="dropdown-item-text">���고��</span></li>
-                              <li><a class="dropdown-item" href="#">媛���嫄�</a></li>
-                              <li><a class="dropdown-item" href="#">�몃��移�肄���</a></li>
-                              <li><a class="dropdown-item" href="#">肄���</a></li>
+                              <li><span class="dropdown-item-text">占쏙옙占쎄�占쏙옙</span></li>
+                              <li><a class="dropdown-item" href="#">揶�占쏙옙占썲�占�</a></li>
+                              <li><a class="dropdown-item" href="#">占쎈�占쏙옙燁삼옙��占쏙옙占�</a></li>
+                              <li><a class="dropdown-item" href="#">��占쏙옙占�</a></li>
                             </div>
                             <div class="dropdown-in">
                               <button type="button" class="btn-close" aria-label="Close"></button>
@@ -332,22 +73,22 @@
                           </a>
                         <ul class="dropdown-menu">
                           <div class="dropdown-in">
-                            <li><span class="dropdown-item-text">����</span></li>
-                            <li><a class="dropdown-item" href="#">��痢�</a></li>
-                            <li><a class="dropdown-item" href="#">諛���</a></li>
-                            <li><a class="dropdown-item" href="#">湲댄��</a></li>
+                            <li><span class="dropdown-item-text">占쏙옙占쏙옙</span></li>
+                            <li><a class="dropdown-item" href="#">占쏙옙筌ο옙</a></li>
+                            <li><a class="dropdown-item" href="#">獄�占쏙옙占�</a></li>
+                            <li><a class="dropdown-item" href="#">疫뀀��占쏙옙</a></li>
                           </div>
                           <div class="dropdown-in">
-                            <li><span class="dropdown-item-text">����</span></li>
-                            <li><a class="dropdown-item" href="#">泥�諛�吏�</a></li>
-                            <li><a class="dropdown-item" href="#">�щ����</a></li>
-                            <li><a class="dropdown-item" href="#">���쇰���ъ�</a></li>
+                            <li><span class="dropdown-item-text">占쏙옙占쏙옙</span></li>
+                            <li><a class="dropdown-item" href="#">筌ｏ옙獄�占쏙�占�</a></li>
+                            <li><a class="dropdown-item" href="#">占싼�占쏙옙占쏙옙</a></li>
+                            <li><a class="dropdown-item" href="#">占쏙옙占쎌�곤옙占쏙옙�占�</a></li>
                           </div>
                           <div class="dropdown-in">
-                            <li><span class="dropdown-item-text">���고��</span></li>
-                            <li><a class="dropdown-item" href="#">媛���嫄�</a></li>
-                            <li><a class="dropdown-item" href="#">�몃��移�肄���</a></li>
-                            <li><a class="dropdown-item" href="#">肄���</a></li>
+                            <li><span class="dropdown-item-text">占쏙옙占쎄�占쏙옙</span></li>
+                            <li><a class="dropdown-item" href="#">揶�占쏙옙占썲�占�</a></li>
+                            <li><a class="dropdown-item" href="#">占쎈�占쏙옙燁삼옙��占쏙옙占�</a></li>
+                            <li><a class="dropdown-item" href="#">��占쏙옙占�</a></li>
                           </div>
                           <div class="dropdown-in">
                             <button type="button" class="btn-close" aria-label="Close"></button>
@@ -384,7 +125,7 @@
                   </div>
                   <a class="navbar-brand"></a>
                   <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="�ㅼ����濡� 寃��� ��)���명��" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="占썬�쇽옙占쏙옙占썸에占� 野�占쏙옙占� 占쏙옙)占쏙옙占쎈�占쏙옙" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                   </form>
                 </div>
@@ -444,13 +185,13 @@
     </div> -->
     <!--Main-top End-->
     
-    <!--���� �ㅻ�� information������-->
+    <!--占쏙옙占쏙옙 占썬�삼옙占� information占쏙옙占쏙옙占쏙옙-->
     <div class="main-top-information">
       <div class="new-main">
         <div class="top-width">
           <h2>SKIRTS</h2>
           <h4>"If you wear a short enough skirt, the party will come to you."
-            ��Dorothy Parker</h4>
+            占쏙옙Dorothy Parker</h4>
         </div>
         <div>
           
@@ -470,13 +211,13 @@
         <h3>Beatiful Women Skirts</h3>
       </div>
 
-      <!--new-main�쇰� ���� div援ъ��-->
+      <!--new-main占쎌�곤옙 占쏙옙占쏙옙 div�닌�占쏙옙-->
       
       <div class="new-main-products">
-        <!--products�쇰�� div濡� 臾쇨굔 ���� �ｌ�� 寃� 援ъ��-->
+        <!--products占쎌�곤옙占� div嚥∽옙 �얠�④� 占쏙옙占쏙옙 占쏙�占쏙옙 野�占� �닌�占쏙옙-->
         <div class="products">
           <div class="content-img">
-            <!--��踰� �� 媛��몄�� 紐⑥���� ��吏��⑸����-->
+            <!--占쏙옙甕곤옙 占쏙옙 揶�占쏙옙紐�占쏙옙 筌��ο옙占쏙옙占� 占쏙옙筌�占쏙옙�몌옙占쏙옙占�-->
             
             <a href="#">
               <div class="content-wrap-img">
@@ -681,34 +422,34 @@
     </div>
     <!--Footer End-->
 
-    <!-- ��以��� JS���쇱�� �곕� 類����� -->
+    <!-- 占쏙옙餓ο옙占쏙옙 JS占쏙옙占쎌�깍옙占� 占쎄�占� 筌�占쏙옙占쏙옙占� -->
 <script>
   const img = document.getElementById('img');
-  // �щ━硫� 蹂����� �ъ�
+  // 占싼���筌�占� 癰�占쏙옙占쏙옙占� 占싼�占�
   img.addEventListener('mouseover', (event)=> {
     img.src="https://images.unsplash.com/photo-1583846717393-dc2412c95ed7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80";
   });
-  // ���� �ъ�
+  // 占쏙옙占쏙옙 占싼�占�
   img.addEventListener('mouseout', (event) => {
     img.src="https://images.unsplash.com/photo-1583846783214-7229a91b20ed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80";
   });
   
   const img1 = document.getElementById('img1');
-  // �щ━硫� 蹂����� �ъ�
+  // 占싼���筌�占� 癰�占쏙옙占쏙옙占� 占싼�占�
   img1.addEventListener('mouseover', (event)=> {
     img1.src="https://images.unsplash.com/photo-1552027933-f034ba955d49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80";
   });
-  // ���� �ъ�
+  // 占쏙옙占쏙옙 占싼�占�
   img1.addEventListener('mouseout', (event) => {
     img1.src="https://images.unsplash.com/photo-1590400516695-36708d3f964a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80";
   });
 
   const img2 = document.getElementById('img2');
-  // �щ━硫� 蹂����� �ъ�
+  // 占싼���筌�占� 癰�占쏙옙占쏙옙占� 占싼�占�
   img2.addEventListener('mouseover', (event)=> {
     img2.src="https://images.unsplash.com/photo-1561932850-4b65ce092609?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80";
   });
-  // ���� �ъ�
+  // 占쏙옙占쏙옙 占싼�占�
   img2.addEventListener('mouseout', (event) => {
     img2.src="https://images.unsplash.com/photo-1561932850-f13404855e53?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=313&q=80";
   });

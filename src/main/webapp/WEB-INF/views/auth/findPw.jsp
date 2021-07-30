@@ -23,101 +23,11 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>UNISHOP Find ID</title>
+<link rel="stylesheet" type="text/css" href="/css/header.css">
+<link rel="stylesheet" type="text/css" href="/css/auth.css">
+<title>UNISHOP Find Pw</title>
 <style>
-/* 헤더 */
-.d-flex {
-	width: 400px;
-}
 
-.header {
-	position: relative;
-	padding: 0px;
-	width: 100%;
-	margin: 0px auto;
-}
-
-
-/* .main-top { */
-/* 	position: relative; */
-/* 	padding: 16px 0px; */
-/* 	width: 1200px; */
-/* 	margin: 0px auto; */
-/* } */
-
-/* .main-content { */
-/* 	position: relative; */
-/* 	padding: 16px 0px; */
-/* 	width: 1200px; */
-/* 	margin: 0px auto; */
-/* } */
-
-/* 비밀번호 아이디찾기 요소 */
-.main {
-	margin-top: 100px;
-	height: 566px;
-}
-
-/* 로그인 비밀번호찾기 아이디 찾기 요소 */
-.form-signin {
-	width: 100%;
-	max-width: 330px;
-	padding: 15px;
-	margin: auto;
-}
-
-/* 헤더 */
-.dropdown-menu {
-	height: auto;
-	position: relative;
-	width: 460px;
-	top: 78px;
-	left: 50%;
-	font-size: 12px;
-	line-height: 1.3em;
-	background-color: white;
-}
-
-.dropdown-in {
-	display: inline-block;
-	margin: 12px;
-}
-
-.dropdown-item-text {
-	font-weight: bold !important;
-	font-size: 13px;
-	margin-bottom: 4px;
-}
-
-.dropdown-item {
-	font-family: '맑은 고딕', 'Malgun Gothic', 돋움;
-}
-
-/* .dropdown-in-close { */
-/* 	top: 20px; */
-/* 	position: absolute; */
-/* 	margin: 12px; */
-/* } */
-
-/* 인증번호 받기 요소 */
-.find {
-	display: flex;
-	justify-content: space-between;
-	font-size: 12px;
-	margin: 8px;
-	padding: 3px;
-}
-
-/* 헤더 */
-.icon {
-	display: flex;
-	width: 30px;
-	justify-content: space-between;
-}
-
-.logo {
-	height: 60px;
-}
 </style>
 </head>
 <body>

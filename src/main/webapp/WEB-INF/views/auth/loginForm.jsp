@@ -12,85 +12,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/css/auth.css">
+    
     <title>UNISHOP Sign in</title>
     <style>
   
-/* 헤더 */
-        .d-flex{
-            width: 400px;
-        }
-        .header{
-        position: relative;
-        padding: 0px;
-        width: 100%;
-        margin: 0px auto;
-        }
-        
-        
-
-
-/* 로그인 회원가입 요소입니다 */
-        .main{
-          margin-top: 100px;
-          height: 566px;
-        }
-        .form-signin {
-          width: 100%;
-          max-width: 330px;
-          padding: 15px;
-          margin: auto;
-        }
-
-
-
-/* 헤더 */
-        .dropdown-menu{
-          height: auto;
-          position: relative;
-          width: 460px;
-          top: 78px;
-          left: 50%;
-        
-          font-size: 12px;
-          line-height: 1.3em;
-          background-color: white;
-    
-        }
-        .dropdown-in{
-          display: inline-block;
-          margin: 12px;
-
-        }
-        .dropdown-item-text{
-          font-weight: bold !important;
-          font-size: 13px;
-          margin-bottom: 4px;
-        }
-        .dropdown-item{
-          font-family: '맑은 고딕', 'Malgun Gothic', 돋움;
-          
-        }
-
-/*       아이디, 비밀번호 찾기 요소입니다 */
-        .find{
-          display: flex;
-          justify-content: space-between;
-          font-size: 12px;
-          margin: 8px;
-          padding: 3px;
-          
-        }
-        
-/*         헤더입니다 */
-        .icon{
-          display: flex;
-          width:30px;
-          justify-content: space-between;
-
-        }
-        .logo{
-          height: 60px;
-        }
   </style>
 </head>
 <body>

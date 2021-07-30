@@ -23,80 +23,11 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/css/header.css">
+<link rel="stylesheet" type="text/css" href="/css/auth.css">
 <title>UNISHOP Sign up</title>
 <style>
-/* 헤더 */
-.d-flex {
-	width: 400px;
-}
 
-.header {
-	position: relative;
-	padding: 0px;
-	width: 100%;
-	margin: 0px auto;
-}
-
-
-/* 아이디찾기, 비밀번호 찾기, 회원가입, 로그인 요소입니다 */
-.main {
-	margin-top: 4px;
-	margin-bottom: 0px;
-	height: 666px;
-}
-
-.form-signin {
-	width: 100%;
-	max-width: 600px;
-	padding: 15px;
-	margin: 0 auto;
-}
-
-/* 아이디찾기, 비밀번호 찾기, 회원가입, 로그인 요소입니다 끝 */
-
-/* 헤더 */
-.dropdown-menu {
-	height: auto;
-	position: relative;
-	width: 460px;
-	top: 78px;
-	left: 50%;
-	font-size: 12px;
-	line-height: 1.3em;
-	background-color: white;
-}
-
-.dropdown-in {
-	display: inline-block;
-	margin: 12px;
-}
-
-.dropdown-item-text {
-	font-weight: bold !important;
-	font-size: 13px;
-	margin-bottom: 4px;
-}
-
-.dropdown-item {
-	font-family: '맑은 고딕', 'Malgun Gothic', 돋움;
-}
-
-
-
-.icon {
-	display: flex;
-	width: 30px;
-	justify-content: space-between;
-}
-
-.logo {
-	height: 60px;
-}
-
-/* 회원가입 요소입니다 */
-h2 {
-	margin-bottom: 6px;
-}
 </style>
 </head>
 <body>
@@ -221,8 +152,8 @@ h2 {
 	</div>
 
 	<!--login-->
-	<div class="main">
-		<main class="form-signin">
+	<div id="main">
+		<main id="form-signin">
 
 			<h2>Sign Up</h2>
 			<form action="/auth/join" method="post">
