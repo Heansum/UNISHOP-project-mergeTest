@@ -50,9 +50,29 @@ public class TestController {
     	return "/auth/findId";
     }
     
+    @GetMapping("/test/test/findId2")
+    public String findid2() {
+    	return "/auth/findId2";
+    }
+    
+    @GetMapping("/test/test/findId3")
+    public String findid3() {
+    	return "/auth/findId3";
+    }
+    
     @GetMapping("/test/test/findPw")
     public String findpw() {
     	return "/auth/findPw";
+    }
+    
+    @GetMapping("/test/test/findPw2")
+    public String findpw2() {
+    	return "/auth/findPw2";
+    }
+    
+    @GetMapping("/test/test/findPw3")
+    public String findpw3() {
+    	return "/auth/findPw3";
     }
     
     @GetMapping("/test/test/joinform")
@@ -60,9 +80,20 @@ public class TestController {
     	return "/auth/joinForm";
     }
     
+    @GetMapping("/test/test/joinform2")
+    public String joinform2() {
+    	return "/auth/joinForm2";
+    }
+    
+    
     @GetMapping("/test/test/loginform")
     public String loginform() {
     	return "/auth/loginForm";
+    }
+    
+    @GetMapping("/test/test/loginform2")
+    public String loginform2() {
+    	return "/auth/loginForm2";
     }
     
     @GetMapping("/")
@@ -75,6 +106,11 @@ public class TestController {
     	return "/post/productPage";
     }
     
+    @GetMapping("/test/test/productpage2")
+    public String productPage2() {
+    	return "/post/productPage2";
+    }
+    
     @GetMapping("/test/header")
     public String header() {
     	return "/layout/header";
@@ -85,13 +121,28 @@ public class TestController {
     	return "/user/bucket";
     }
     
+    @GetMapping("/test/bucket2")
+    public String bucket2() {
+    	return "/user/bucket2";
+    }
+    
     @GetMapping("/test/comments")
     public String comments() {
     	return "/user/commentsManagement";
     }
     
+    @GetMapping("/test/comments2")
+    public String comments2() {
+    	return "/user/commentsManagement2";
+    }
+    
     @GetMapping("/test/mypage")
     public String usermypage() {
     	return "/user/myPage";
+    }
+    
+    @GetMapping("/test/mypage2")
+    public String usermypage2() {
+    	return "/user/myPage2";
     }
 }

@@ -7,6 +7,10 @@
 	justify-content: center;
 }
 
+.mypage-section{
+	display: flex;
+	flex:5;
+}
 .sidebars {
 	display: flex;
 	flex: 1;
@@ -18,8 +22,8 @@ hr {
 }
 /* 나중에 어드민과 섹션과 마이 페이지 섹션이 곂칠 수 있습니다. */
 /* 해결해야 하는 문제 */
-.section {
-	margin-left: 180px;
+.mypage-section {
+/* 	margin-left: 180px; */
 	width: 70%;
 	display: flex;
 	flex: 4;

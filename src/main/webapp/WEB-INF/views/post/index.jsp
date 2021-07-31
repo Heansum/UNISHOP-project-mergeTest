@@ -1,4 +1,6 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+	
 <%@ include file="../layout/header.jsp" %>
 
 
@@ -66,14 +68,14 @@
 	<h3>Women</h3>
 	<div class="new-main">
 
-		<div class="content-img">
+		<div class="index-content-img">
 			<img
 				src="https://images.unsplash.com/photo-1599839352521-8f25bc02b3b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
 				class="rounded float-start" alt="...">
 
 		</div>
 
-		<div class="content-img">
+		<div class="index-content-img">
 			<img
 				src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
 				class="rounded float-end" alt="...">
@@ -83,13 +85,13 @@
 	</div>
 
 	<div class="new-main">
-		<div class="content-img">
+		<div class="index-content-img">
 			<img
 				src="https://images.unsplash.com/photo-1467632499275-7a693a761056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
 				class="rounded float-start" alt="...">
 
 		</div>
-		<div class="content-img">
+		<div class="index-content-img">
 			<img
 				src="https://images.unsplash.com/photo-1472806426350-603610d85659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
 				class="rounded float-end" alt="...">
@@ -101,12 +103,12 @@
 
 
 	<div class="new-main">
-		<div class="content-img">
+		<div class="index-content-img">
 			<img
 				src="https://images.unsplash.com/photo-1617196701537-7329482cc9fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
 				class="rounded float-start" alt="...">
 		</div>
-		<div class="content-img">
+		<div class="index-content-img">
 			<img
 				src="https://images.unsplash.com/photo-1515131493472-b33649db808c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
 				class="rounded float-end" alt="...">
@@ -114,12 +116,12 @@
 		</div>
 	</div>
 	<div class="new-main">
-		<div class="content-img">
+		<div class="index-content-img">
 			<img
 				src="https://images.unsplash.com/photo-1601917993872-16fc37c1f872?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
 				class="rounded float-start" alt="...">
 		</div>
-		<div class="content-img">
+		<div class="index-content-img">
 			<img
 				src="https://images.unsplash.com/photo-1480264104733-84fb0b925be3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
 				class="rounded float-end" alt="...">

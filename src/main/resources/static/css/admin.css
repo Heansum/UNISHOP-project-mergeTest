@@ -5,7 +5,7 @@
 }
 
 /* 		어드민 섹션 */
-.section {
+.admin-section {
 	
 	margin-left: 180px;
 	width: 70%;
@@ -52,8 +52,10 @@
 /* 어드민 프로덕트 메인입니다 */
 main {
 	margin-top: 30px;
-	height: 1200px;
-	max-height: 1400px;
+	
+/* 	적용도 어짜피 안되서 주석처리했습니다 */
+/* 	height: 1200px; */
+/* 	max-height: 1400px; */
 }
 
 /* 어드민 등록 페이지입니다 */

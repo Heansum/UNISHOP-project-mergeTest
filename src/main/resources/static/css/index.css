@@ -28,7 +28,7 @@ hr {
 	width: 1200px;
 }
 
-.content-img {
+.index-content-img {
 	margin: 15px;
 	display: flex;
 	justify-content: space-between;
@@ -39,10 +39,12 @@ hr {
 
 /* 인덱스에 들어가는 것들 */
 p, h1, h2, h3 {
-	display: block;
+	display: flex;
+	justify-content: center;
 	margin: 0 auto;
 	font-family: 'UniqloProRegular', 'UniqloProLight', 'UniqloProBold',
 		'NanumSquare', sans-serif;
 	padding: 20px 0px;
-	width: 1200px;
+/* 	width: 1200px; */
+/* 	width:70%; */
 }

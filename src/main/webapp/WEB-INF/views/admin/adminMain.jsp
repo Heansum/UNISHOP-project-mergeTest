@@ -1,7 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
 <%@ include file="../layout/header.jsp" %>
+<!-- 비정상적으로 요소가 배치되는 것을 수정해야합니다 -->
 
-
-    <main>
+    <main class="sidebar-main">
     <!--side bar-->
       <div class="sidebars">
         <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
@@ -69,7 +72,7 @@
     <!--side bar End-->
 
     <!--Admin section-->
-      <section class="section">
+      <section class="admin-section">
         <div>
           <h2 id="h2">Overview</h2>
         </div>
